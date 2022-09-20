@@ -1,0 +1,212 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "avatar": "https://cdn.pixabay.com/photo/2014/03/24/17/19/teacher-295387_1280.png",
+      "firstName": "Web Dev ",
+      "lastName": "1",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 2,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Akash ",
+      "lastName": "Agarwal",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 3,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Shubham ",
+      "lastName": "Bhandari",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 4,
+      "avatar": "https://cdn.pixabay.com/photo/2014/03/24/17/19/teacher-295387_1280.png",
+      "firstName": "Jigrisha ",
+      "lastName": "Dixit",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 5,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Kumar ",
+      "lastName": "Gaurav",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 6,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Yaswant ",
+      "lastName": "Gowda",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 7,
+      "avatar": "https://cdn.pixabay.com/photo/2014/03/24/17/19/teacher-295387_1280.png",
+      "firstName": "Varsha ",
+      "lastName": "J",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 8,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Brijesh ",
+      "lastName": "Jha",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 9,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Prince ",
+      "lastName": "Kalra",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 10,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Nihal",
+      "lastName": "Pandey",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 11,
+      "avatar": "https://cdn.pixabay.com/photo/2014/03/24/17/19/teacher-295387_1280.png",
+      "firstName": "Dhruthi ",
+      "lastName": "Ramesh",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 12,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Atharva ",
+      "lastName": "Sabde",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 14,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Shashwant ",
+      "lastName": "Sahay",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 15,
+      "avatar": "https://cdn.pixabay.com/photo/2014/03/24/17/19/teacher-295387_1280.png",
+      "firstName": "Aritry ",
+      "lastName": "Samaddar",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 16,
+      "avatar": "https://cdn.pixabay.com/photo/2014/03/24/17/19/teacher-295387_1280.png",
+      "firstName": "Barkha ",
+      "lastName": "Singh",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 17,
+      "avatar": "https://cdn.pixabay.com/photo/2014/03/24/17/19/teacher-295387_1280.png",
+      "firstName": "Khushi ",
+      "lastName": "Singh",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 18,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Yogya ",
+      "lastName": "Singhal",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 19,
+      "avatar": "https://cdn.pixabay.com/photo/2014/03/24/17/19/teacher-295387_1280.png",
+      "firstName": "Meghna ",
+      "lastName": "Srivastava",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 20,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Rachit ",
+      "lastName": "Tandon",
+      "role": "Trainee"
+    },
+    {
+      "id": 21,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Pranjal ",
+      "lastName": "Tripathi",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    },
+    {
+      "id": 22,
+      "avatar": "https://cdn.pixabay.com/photo/2014/04/02/14/11/male-306408__480.png",
+      "firstName": "Sachin ",
+      "lastName": "Verma",
+      "role": "Trainee",
+      "followers": "10",
+      "Tasks": "150",
+      "rank": "2"
+    }
+
+  ]
+}

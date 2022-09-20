@@ -1,0 +1,149 @@
+import React from 'react';
+import './home.css';
+import { useSelector } from 'react-redux';
+
+const Home = () => {
+  const items = useSelector((state) => state.myCourse);
+  return (
+    <>
+
+      <nav className="navbar fixed-top navbar-light bg-white navbar-expand" aria-label="Site navigation" >
+
+        <button className="navbar-toggler aabtn d-block d-md-none px-1 my-1 border-0" data-toggler="drawers" data-action="toggle" data-target="theme_boost-drawers-primary" data-disabled-toggle="undefined">
+          <span className="navbar-toggler-icon"></span>
+          <span className="sr-only">Side panel</span>
+        </button>
+
+        <img src="https://learnifyme.com/pluginfile.php/1/core_admin/logocompact/300x300/1658463070/Group%203%403x.png" className="logo mr-1" alt="LearnifyMe" />
+
+
+        {/* <a href="https://learnifyme.com/my/" className="navbar-brand d-none d-md-flex align-items-center m-0 mr-4 p-0 aabtn">
+
+<img src="https://learnifyme.com/pluginfile.php/1/core_admin/logocompact/300x300/1658463070/Group%203%403x.png" className="logo mr-1" alt="LearnifyMe" />
+</a> */}
+        <div className="primary-navigation">
+          <nav className="moremenu navigation observed">
+            <ul id="moremenu-6313acf4f13cf-navbar-nav" role="menubar" className="nav more-nav navbar-nav">
+              <li className="nav-item" role="none" data-forceintomoremenu="false">
+                <a role="menuitem" className="nav-link " href="http://localhost:3003/" tabIndex="-1">
+                  Home
+                </a>
+              </li>
+              <li className="nav-item" role="none" data-forceintomoremenu="false">
+                <a role="menuitem" className="nav-link " href="http://localhost:3003/dashboard" aria-current="true">
+                  Dashboard
+                </a>
+              </li>
+              <li className="nav-item" role="none" data-forceintomoremenu="false">
+                <a role="menuitem" className="nav-link  " href="http://localhost:3003/mycourses" tabIndex="-1">
+                  My courses
+                </a>
+              </li>
+              <li className="nav-item" role="none" data-forceintomoremenu="false">
+                <a role="menuitem" className="nav-link  " href="http://localhost:3003/trainees" tabIndex="-1">
+                  My BatchMates
+                </a>
+              </li>
+              <span className="cartCount">Courses Enrolled: {items.length}</span>
+              <li role="none" className="nav-item dropdown dropdownmoremenu d-none" data-region="morebutton">
+                <a className="dropdown-toggle nav-link " href="#" id="moremenu-dropdown-6313acf4f13cf" role="menuitem" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" tabIndex="-1">
+                  More
+                </a>
+                <ul className="dropdown-menu dropdown-menu-left" data-region="moredropdown" aria-labelledby="moremenu-dropdown-6313acf4f13cf" role="menu">
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <ul className="navbar-nav d-none d-md-flex my-1 px-1">
+          {/* <!-- page_heading_menu ----------> */}
+        </ul>
+
+        {/*--------------------------------------------------------------------------------------------------------------------------------- */}
+        <div id="usernavigation" class="navbar-nav ml-auto">
+          <div class="popover-region popover-region-notifications collapsed" id="nav-notification-popover-container" data-userid="378" data-region="popover-region">
+
+            {/*------------------NOTIFICATIONS------------------- */}
+
+            {/*------------------NOTIFICATIONS------------------- */}
+
+
+          </div>
+          <div class="popover-region collapsed" data-region="popover-region-messages" id="yui_3_17_2_1_1662274929491_28">
+            <span class="sr-only sr-only-focusable" data-region="jumpto" tabindex="-1"></span></div>
+          <div class="d-flex align-items-stretch usermenu-container" data-region="usermenu">
+            <div class="usermenu">
+              <div class="dropdown show">
+                <a href="#" role="button" id="user-menu-toggle" data-toggle="dropdown" aria-label="User menu" aria-haspopup="true" aria-controls="user-action-menu" class="btn dropdown-toggle">
+                  <span class="userbutton">
+                    <span class="avatars">
+                      <span class="avatar current">
+                        <span class="userinitials size-35">MS</span>
+                      </span>
+                    </span>
+                  </span>
+                </a>
+                <div id="user-action-menu" class="dropdown-menu dropdown-menu-right">
+                  <div id="usermenu-carousel" class="carousel slide" data-touch="false" data-interval="false" data-keyboard="false">
+                    <div class="carousel-inner">
+                      <div id="carousel-item-main" class="carousel-item active" role="menu" tabindex="-1" aria-label="User">
+                        <a href="http://localhost:3003/profile" class="dropdown-item" role="menuitem" tabindex="-1">
+
+                          Profile
+                        </a>
+
+                        <a href="http://localhost:3003/grades" class="dropdown-item" role="menuitem" tabindex="-1">
+
+                          Grades
+                        </a>
+
+                        <a href="http://localhost:3003/myprogress" class="dropdown-item" role="menuitem" tabindex="-1">
+
+                          Progress
+                        </a>
+
+                        <a href="http://localhost:3003/myprojects" class="dropdown-item" role="menuitem" tabindex="-1">
+
+                          Projects
+                        </a>
+
+                        <a href="https://learnifyme.com/reportbuilder/index.php" class="dropdown-item" role="menuitem" tabindex="-1">
+
+                          Reports
+                        </a>
+
+                        <div class="dropdown-divider"></div>
+                        <a href="https://learnifyme.com/user/preferences.php" class="dropdown-item" role="menuitem" tabindex="-1">
+
+                          Preferences
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a href="https://learnifyme.com/login/logout.php?sesskey=AZiHG8cL6p" class="dropdown-item" role="menuitem" tabindex="-1">
+
+                          Log out
+                        </a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </nav>
+
+
+
+
+    </>
+
+  )
+}
+
+export default Home;
+
+

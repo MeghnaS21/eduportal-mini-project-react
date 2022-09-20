@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post-one",
+      "body": "this is the post body",
+      "published-At": "10-01-2020"
+    },
+    {
+      "id": 2,
+      "title": "Post-two",
+      "body": "this is the post body",
+      "published-At": "10-01-2020"
+    },
+    {
+      "id": 3,
+      "title": "Post-three",
+      "body": "this is the post body",
+      "published-At": "10-01-2020"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "example@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "meghna srivastava",
+      "email": "meghna@gmail.com"
+    }
+  ]
+}
